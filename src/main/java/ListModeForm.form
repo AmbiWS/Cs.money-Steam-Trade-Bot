@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ListModeForm">
+  <grid id="27dc6" binding="listModeFormRootPanel" layout-manager="GridLayoutManager" row-count="13" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1144" height="661"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="f895">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="83ef6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Выберите название списка, по которому должен работать бот:"/>
+        </properties>
+      </component>
+      <component id="9e1ce" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="25"/>
+            <preferred-size width="200" height="25"/>
+            <maximum-size width="200" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Запустить"/>
+        </properties>
+      </component>
+      <component id="9ca36" class="javax.swing.JButton" binding="stopButton">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="25"/>
+            <preferred-size width="200" height="25"/>
+            <maximum-size width="200" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Остановить"/>
+        </properties>
+      </component>
+      <component id="592a1" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="25"/>
+            <preferred-size width="200" height="25"/>
+            <maximum-size width="200" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Выход"/>
+        </properties>
+      </component>
+      <hspacer id="e9775">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="25"/>
+            <preferred-size width="25" height="25"/>
+            <maximum-size width="25" height="25"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="c6f5">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <scrollpane id="95793">
+        <constraints>
+          <grid row="1" column="4" row-span="11" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="350" height="450"/>
+            <preferred-size width="350" height="450"/>
+            <maximum-size width="350" height="450"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="32"/>
+          <verticalScrollBarPolicy value="22"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cdd07" class="javax.swing.JTextArea" binding="logTextArea">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font name="Century Gothic" size="11" style="0"/>
+              <foreground color="-1973791"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="e098a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="log"/>
+        </properties>
+      </component>
+      <component id="a60c3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Оставить на балансе:     $"/>
+        </properties>
+      </component>
+      <component id="7236b" class="javax.swing.JTextField" binding="botStopLoss">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="-1"/>
+            <preferred-size width="50" height="-1"/>
+            <maximum-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <hspacer id="f8649">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="25"/>
+            <preferred-size width="25" height="25"/>
+            <maximum-size width="25" height="25"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="f5299">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="61022" class="javax.swing.JTextField" binding="statusTF">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font name="Century Gothic" size="14"/>
+          <horizontalAlignment value="0"/>
+          <text value="Куплено предметов на $0 &lt;//&gt; Время работы: 0/00:00:00 &lt;//&gt; Вывод/мин.: $0"/>
+        </properties>
+      </component>
+      <component id="6cfef" class="javax.swing.JComboBox" binding="listsCB">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1c317" class="javax.swing.JCheckBox" binding="allowCustomPriceCB">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <selected value="true"/>
+          <text value="Не покупать предметы с маркета"/>
+        </properties>
+      </component>
+      <grid id="181e8" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="-1"/>
+            <preferred-size width="250" height="-1"/>
+            <maximum-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none" title="Залоченность">
+          <font name="Century Gothic" size="10" style="0"/>
+        </border>
+        <children>
+          <component id="2057f" class="javax.swing.JRadioButton" binding="onlyUnlocked">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Только незалоченные"/>
+            </properties>
+          </component>
+          <component id="af375" class="javax.swing.JRadioButton" binding="lockedAndUnlocked">
+            <constraints border-constraint="South"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Оба варианта"/>
+            </properties>
+          </component>
+          <component id="22c35" class="javax.swing.JRadioButton" binding="onlyLocked">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Только залоченные"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9b1f" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="-1"/>
+            <preferred-size width="250" height="-1"/>
+            <maximum-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none" title="Наценка">
+          <font name="Century Gothic" size="10" style="0"/>
+        </border>
+        <children>
+          <component id="88c9b" class="javax.swing.JRadioButton" binding="onlyOverpriced">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Только с наценкой"/>
+            </properties>
+          </component>
+          <component id="752a0" class="javax.swing.JRadioButton" binding="overpricedAndDefaultPrice">
+            <constraints border-constraint="South"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Оба варианта"/>
+            </properties>
+          </component>
+          <component id="a27d4" class="javax.swing.JRadioButton" binding="onlyDefaultPrice">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Только без наценки"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="dc156" class="javax.swing.JCheckBox" binding="virtOffersCB">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <selected value="true"/>
+          <text value="Не подтверждать виртуальные обмены"/>
+        </properties>
+      </component>
+      <grid id="67edb" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="-1"/>
+            <preferred-size width="250" height="-1"/>
+            <maximum-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none" title="Игра">
+          <font name="Century Gothic" size="10" style="0"/>
+        </border>
+        <children>
+          <component id="9542b" class="javax.swing.JRadioButton" binding="dotaGame">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Dota 2"/>
+            </properties>
+          </component>
+          <component id="57e7a" class="javax.swing.JRadioButton" binding="csgoAndDotaGames">
+            <constraints border-constraint="South"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="Оба варианта"/>
+            </properties>
+          </component>
+          <component id="3eb18" class="javax.swing.JRadioButton" binding="csgoGame">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="Century Gothic" size="12" style="0"/>
+              <text value="CS:GO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SForm">
+  <grid id="27dc6" binding="sformRootPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3caac" class="javax.swing.JButton" binding="sharktoolsAuthorization">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Авторизоваться"/>
+        </properties>
+      </component>
+      <component id="69df2" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Выход"/>
+        </properties>
+      </component>
+      <hspacer id="134be">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="dc172">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="20" height="20"/>
+            <maximum-size width="20" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="8f3f5">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="30"/>
+            <preferred-size width="30" height="30"/>
+            <maximum-size width="30" height="30"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="f52ac" class="javax.swing.JButton" binding="sharktoolsSubscribeChecker">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+          <text value="Проверить подписку"/>
+        </properties>
+      </component>
+      <component id="baedc" class="javax.swing.JButton" binding="csmSaveAuthButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="10" style="0"/>
+          <text value="Сохранить сессию CSM и продолжить работу"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
